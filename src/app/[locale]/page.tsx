@@ -1,4 +1,6 @@
 'use client';
+export const runtime = "edge";
+
 
 import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { useRouter } from 'next/navigation';

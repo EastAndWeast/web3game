@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+export const runtime = "edge";
+
 import { Geist, Geist_Mono, Orbitron, Rajdhani } from "next/font/google";
 import "../globals.css";
 
