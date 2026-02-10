@@ -1,5 +1,9 @@
 'use client';
-export const runtime = "edge";
+
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'zh' }];
+}
+
 
 
 import { ConnectButton } from '@rainbow-me/rainbowkit';
