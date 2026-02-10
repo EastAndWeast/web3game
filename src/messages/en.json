@@ -1,0 +1,77 @@
+{
+    "Home": {
+        "title": "WEB3_ADVENTURE",
+        "subtitle": "Gamified Learning Protocol v1.0",
+        "connectWallet": "INITIALIZE_WALLET",
+        "wrongNetwork": "Wrong Network",
+        "statusOnline": "SYSTEM_STATUS: ONLINE | BUILD: 2026.02.10"
+    },
+    "Map": {
+        "Level1": {
+            "title": "Beginner Village",
+            "description": "Welcome to Web3! Create your first wallet."
+        },
+        "Level2": {
+            "title": "Magic Fountain",
+            "description": "Get some test tokens (Faucet)."
+        },
+        "Level3": {
+            "title": "First Scroll",
+            "description": "Send your first transaction."
+        },
+        "Level4": {
+            "title": "Marketplace",
+            "description": "Swap tokens on a DEX."
+        },
+        "Level5": {
+            "title": "Art Gallery",
+            "description": "Mint your first NFT."
+        }
+    },
+    "Game": {
+        "returnToMap": "Return_To_Map",
+        "secureConnection": "SECURE_CONNECTION_ESTABLISHED",
+        "missionObjective": "Mission Objective",
+        "missionCompleted": "MISSION ACCOMPLISHED",
+        "redirecting": "REDIRECTING..."
+    },
+    "WalletConnectGame": {
+        "description": "Establish a secure link to the blockchain network by connecting your digital wallet."
+    },
+    "FaucetGame": {
+        "description": "You need Gas (ETH) to perform transactions. Obtain some testnet tokens from the reservoir.",
+        "currentBalance": "Current Wallet Balance",
+        "getTokens": "Go to Faucet",
+        "checking": "Checking Balance...",
+        "mockClaim": "[DEV]: Simulate Faucet Drop"
+    },
+    "TransferGame": {
+        "description": "Send a small amount of ETH to the Master's account to prove your control over the wallet.",
+        "toLabel": "Recipient (Master's Address)",
+        "amountLabel": "Amount",
+        "masterAddressHint": "This is a safe address for learning purposes.",
+        "balance": "Balance",
+        "sendButton": "Sign & Send",
+        "confirmingWallet": "Confirm in Wallet...",
+        "processing": "Processing Transaction...",
+        "txHash": "Transaction Hash:",
+        "mockSend": "[DEV]: Simulate Transfer Success"
+    },
+    "SwapGame": {
+        "description": "Exchange your ETH for Web3 Adventure Tokens (W3A) on the decentralized exchange.",
+        "swapTitle": "Swap",
+        "confirmingWallet": "Confirm Swap...",
+        "swapping": "Swapping...",
+        "swapButton": "Swap",
+        "mockSwap": "[DEV]: Simulate Swap",
+        "swapSuccess": "Swap Successful! Received 100 W3A"
+    },
+    "NftGame": {
+        "description": "Mint your founding member badge to certify your Web3 mastery.",
+        "confirming": "Confirm Mint...",
+        "minting": "Minting NFT...",
+        "mintButton": "Mint NFT",
+        "mockMint": "[DEV]: Simulate Mint",
+        "collectionAdded": "✨ ADDED TO COLLECTION ✨"
+    }
+}

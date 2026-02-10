@@ -1,0 +1,77 @@
+{
+    "Home": {
+        "title": "WEB3_ADVENTURE",
+        "subtitle": "游戏化学习协议 v1.0",
+        "connectWallet": "初始化钱包",
+        "wrongNetwork": "网络错误",
+        "statusOnline": "系统状态: 在线 | 版本: 2026.02.10"
+    },
+    "Map": {
+        "Level1": {
+            "title": "新手村",
+            "description": "欢迎来到Web3！创建你的第一个钱包。"
+        },
+        "Level2": {
+            "title": "魔法喷泉",
+            "description": "获取一些测试代币 (水龙头)。"
+        },
+        "Level3": {
+            "title": "初级卷轴",
+            "description": "发送你的第一笔交易。"
+        },
+        "Level4": {
+            "title": "交易集市",
+            "description": "在去中心化交易所兑换代币。"
+        },
+        "Level5": {
+            "title": "艺术画廊",
+            "description": "铸造你的第一个 NFT。"
+        }
+    },
+    "Game": {
+        "returnToMap": "返回地图",
+        "secureConnection": "安全连接已建立",
+        "missionObjective": "任务目标",
+        "missionCompleted": "任务完成",
+        "redirecting": "正在重定向..."
+    },
+    "WalletConnectGame": {
+        "description": "通过连接你的数字钱包，建立与区块链网络的安全链接。"
+    },
+    "FaucetGame": {
+        "description": "你需要 Gas (ETH) 才能进行交易。从蓄水池获取一些测试网代币。",
+        "currentBalance": "当前钱包余额",
+        "getTokens": "前往水龙头",
+        "checking": "正在检查余额...",
+        "mockClaim": "[开发]: 模拟空投领取"
+    },
+    "TransferGame": {
+        "description": "向导师账户发送少量 ETH，以证明你对钱包的控制能力。",
+        "toLabel": "接收方 (导师地址)",
+        "amountLabel": "金额",
+        "masterAddressHint": "这是一个用于教学的安全地址。",
+        "balance": "余额",
+        "sendButton": "签名并发送",
+        "confirmingWallet": "请在钱包中确认...",
+        "processing": "交易处理中...",
+        "txHash": "交易哈希:",
+        "mockSend": "[开发]: 模拟转账成功"
+    },
+    "SwapGame": {
+        "description": "在去中心化交易所将你的 ETH 兑换为 Web3 Adventure 代币 (W3A)。",
+        "swapTitle": "兑换",
+        "confirmingWallet": "确认交易...",
+        "swapping": "兑换中...",
+        "swapButton": "Swap",
+        "mockSwap": "[开发]: 模拟兑换",
+        "swapSuccess": "兑换成功！收到 100 W3A"
+    },
+    "NftGame": {
+        "description": "铸造你的创始成员徽章，证明你的 Web3 精通程度。",
+        "confirming": "确认铸造...",
+        "minting": "正在铸造 NFT...",
+        "mintButton": "铸造 NFT",
+        "mockMint": "[开发]: 模拟铸造",
+        "collectionAdded": "✨ 已添加到收藏 ✨"
+    }
+}

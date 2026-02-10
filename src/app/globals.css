@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+:root {
+  /* Core Palette */
+  --deep-space: #050510;
+  --cyber-blue: #00F0FF;
+  --electric-purple: #7000FF;
+  --neon-red: #FF003C;
+  
+  /* Backgrounds */
+  --color-bg-base: var(--deep-space);
+  --color-bg-card: rgba(20, 20, 40, 0.6);
+}
+
+@theme inline {
+  --color-background: var(--deep-space);
+  --color-foreground: #ffffff;
+  
+  /* Custom Colors */
+  --color-cyber-blue: var(--cyber-blue);
+  --color-electric-purple: var(--electric-purple);
+  --color-neon-red: var(--neon-red);
+  --color-deep-space: var(--deep-space);
+
+  /* Fonts */
+  --font-sans: var(--font-rajdhani), var(--font-geist-sans), ui-sans-serif, system-ui;
+  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-orbitron);
+
+  /* Drop Shadows for Neon Glow */
+  --shadow-neon-blue: 0 0 10px var(--cyber-blue), 0 0 20px var(--cyber-blue);
+  --shadow-neon-purple: 0 0 10px var(--electric-purple), 0 0 20px var(--electric-purple);
+}
+
+/* Global Styles */
+body {
+  background-color: var(--deep-space);
+  color: #ffffff;
+  background-image: 
+    radial-gradient(circle at 15% 50%, rgba(112, 0, 255, 0.15) 0%, transparent 25%),
+    radial-gradient(circle at 85% 30%, rgba(0, 240, 255, 0.15) 0%, transparent 25%);
+  min-height: 100vh;
+}
+
+/* Glassmorphism Utilities */
+@layer components {
+  .card-glass {
+    @apply backdrop-blur-xl border border-white/10 shadow-xl;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+  }
+  
+  .btn-neon {
+    @apply relative px-6 py-2 rounded-lg font-bold text-black transition-all duration-300;
+    background: linear-gradient(90deg, var(--cyber-blue), var(--electric-purple));
+    box-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  }
+  
+  .btn-neon:hover {
+    @apply scale-105;
+    box-shadow: 0 0 20px rgba(0, 240, 255, 0.8);
+  }
+
+  .text-glow {
+    text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  }
+}
