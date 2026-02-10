@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
 
+export const dynamic = "force-static";
+
+export function generateStaticParams() {
+  return [{ locale: 'en' }, { locale: 'zh' }];
+}
+
 
 import { Geist, Geist_Mono, Orbitron, Rajdhani } from "next/font/google";
 import "../globals.css";

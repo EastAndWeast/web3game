@@ -1,6 +1,8 @@
 import { LevelClient } from '@/components/routes/LevelClient';
 import { initialLevels } from '@/constants/mapData';
 
+export const dynamic = "force-static";
+
 export function generateStaticParams() {
     const locales = ['en', 'zh'];
     const levels = initialLevels.map(level => level.id);
